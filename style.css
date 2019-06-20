@@ -1,6 +1,5 @@
 body {
   font-family: "verdana";
-  text-align: center;
   background-color: whitesmoke;
 color:grey;}
 h4{
@@ -29,12 +28,13 @@ h3{
     margin: 20px 0px;
 }
 #social-links {
-	background-color: black;
+	text-align: center;
+	background-color: white;
 	padding: 10px 10px;
 }
 #logo{
 	border-radius: 50%;
-	width: 200px;
+	width: 100px;
 }
 #rs {
 	color: blue;
@@ -56,6 +56,13 @@ color : orange; opacity : 0.8; transition: opacity 0.5s ease;
 .container {
 	width: 600px;
 	margin: 0px auto;
+	text-align: center;
+}
+#map {
+	width:  : 600px;
+	height : 300px;
+	margin : 0px auto;
+}
 }
 @media (max-width: 960px) {
 	.container {

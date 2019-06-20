@@ -6,6 +6,9 @@
 	<meta name="description"content="welcome to my profile page">
 	<meta charset="UTF-8">
 	<script src="https://kit.fontawesome.com/f644d71f90.js"></script>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+
 <head>
 <body>
 	<div class="container">
@@ -33,6 +36,23 @@
 			<h5> Accueil collaborateurs, welcome pack, journées d'intégration, Escape Game, point RH d'intégration. </h5>
 		</div>
 	</div>
+
+	<div id='map'></div>
+	<script>
+	  mapboxgl.accessToken = 'pk.eyJ1IjoicGF1bGluZWdvbnphbGV6IiwiYSI6ImNqeDRwemU4MTBjZDQ0OXQ2aXBrcGliZngifQ.KhLxfMZeT3E3Q4cV2HHo2w';
+	  var map = new mapboxgl.Map({
+	    container: 'map',
+	    style: 'mapbox://styles/mapbox/streets-v11',
+	    center : [2.3925885,48.9020137],
+	    zoom : 10
+	  });
+	  var marker = new mapboxgl.Marker()
+	  .setLngLat([2.3925885,48.9020137])
+	  .addTo (map);
+
+
+	</script>
+
 	<div id="social-links">
 		<h3 id="rs">Follow me </h3>
 		<ul class="list-inline">
