@@ -1,0 +1,83 @@
+body {
+  font-family: "verdana";
+  text-align: center;
+  background-color: whitesmoke;
+color:grey;}
+h4{
+	color : black;
+}
+  a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;}
+  a:hover {
+  color: orange;
+  text-decoration: none;
+}
+h3{
+	color: black;
+}
+.card-white {   
+	background-color: white;
+    border-radius: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: -2px 2px 12px grey, 2px -2px 12px grey;
+    margin: 20px 0px;
+}
+#social-links {
+	background-color: black;
+	padding: 10px 10px;
+}
+#logo{
+	border-radius: 50%;
+	width: 200px;
+}
+#rs {
+	color: blue;
+	padding : 30px 30px 30px 30px;
+}
+.button-blue {   
+ border: 1px solid blue;
+padding: 5px 10px; 
+border-radius: 3px; background-color: whitesmoke; 
+color : orange; opacity : 0.8; transition: opacity 0.5s ease; 
+}
+#button-blue-box {padding-top : 20px; padding-button : 20px;}
+.list-inline {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.text-50px {font-size: 50px;}
+
+.container {
+	width: 600px;
+	margin: 0px auto;
+}
+@media (max-width: 960px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 720px)  {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width : 300px;
+	}
+}
+@media (max-width: 300px) {
+	.container {
+		width : 100%;
+		margin : 0px;
+	}
+	#logo {
+		width : 100px;
+	}
+}
